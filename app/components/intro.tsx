@@ -63,7 +63,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Agus Kurniawan, a Backend Engineer at a leading IT vendor in Jakarta. With a strong foundation in backend development and expertise in Java and Golang.</span> 
+        <span className="font-bold">Hi, I'm Agus Kurniawan, a Backend Engineer who loves solving problems, optimizing performance, and building efficient systems.</span> 
       </motion.h1>
 
       <motion.div
@@ -86,14 +86,14 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        <a
+        {/* <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/AGUS-KURNIAWAN.pdf"
           download
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+        </a> */}
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"

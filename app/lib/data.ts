@@ -50,7 +50,7 @@ export const educDatas = [
     location: "Universitas Terbuka",
     description:
       "Currently pursuing a Bachelor's Degree in Information Systems through a flexible program tailored for working professionals.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuGraduationCap),
     date: "2024 - Present",
   },
   {
@@ -58,7 +58,7 @@ export const educDatas = [
     location: "STMIK Profesional Makassar",
     description:
       "Capstone Project : “Design and Development of an IoT-Based Smart Cane for Surface and Obstacle Detection”. GPA : 3.32",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuGraduationCap),
     date: "2018 - 2021",
   }
 ] as const;
@@ -68,7 +68,7 @@ export const experiencesData = [
     title: "BackEnd Engineer at Indivara Group",
     location: "Jakarta, Indonesia",
     description: "I designed and implemented features based on user requirements, resolved bugs for optimal performance, and collaborated with frontend developers, QA testers, and business analysts to ensure seamless functionality. I developed unit tests using JUnit, provided guidance to team members, integrated data from multiple sources, and executed deployments using CI/CD pipelines. Additionally, I deployed and managed Amazon EC2 instances to enhance project efficiency.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
     date: "2023 - Present",
   },
   {
@@ -102,14 +102,14 @@ export const projectsData = [
     title: "Video Downloader Bot",
     description:
       "I built a Telegram bot to download videos from TikTok and Instagram, offering a simple and efficient solution for users",
-    tags: ["Golang", "Telegram", "Bot", "REST-API"],
+    tags: ["Golang", "Telegram", "Bot", "REST-API", "S3"],
     imageUrl: vidLink,
     url:"https://t.me/VidLinkDownloadBot"
   },
   {
     title: "BroadCast WhatsApp Bot",
     description:
-      "I’m developing a Telegram bot in Golang for broadcasting messages to WhatsApp using the Whatsmeow library.",
+      "I’m building a Telegram bot in Golang to broadcast messages to WhatsApp using Whatsmeow. (Currently in early development)",
     tags: ["Golang", "Postgres", "WhatsMeow", "Concurrency"],
     imageUrl: vidLink,
     url:"https://t.me/broadcast_wa_bot"
@@ -128,7 +128,11 @@ export const skillsData = [
   "REST API",
   "GRPC",
   "JWT",
-  "AMAZON WEB SERVICE",
+  "AWS EC2",
+  "AWS S3",
+  "CLOUD COMPUTING",
+  "CI/CD",
+  "JENKINS",
   "MINIO",
   "RABBITMQ",
   "MYSQL",
