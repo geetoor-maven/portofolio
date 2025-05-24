@@ -69,7 +69,7 @@ export const experiencesData = [
     location: "Jakarta, Indonesia",
     description: "I designed and implemented features based on user requirements, resolved bugs for optimal performance, and collaborated with frontend developers, QA testers, and business analysts to ensure seamless functionality. I developed unit tests using JUnit, provided guidance to team members, integrated data from multiple sources, and executed deployments using CI/CD pipelines. Additionally, I deployed and managed Amazon EC2 instances to enhance project efficiency.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - Present",
+    date: "Jan-2023 - May-2025",
   },
   {
     title: "Freelance BackEnd Engineer at CMS Maju Sejahtera",
@@ -140,5 +140,8 @@ export const skillsData = [
   "SQL SERVER",
   "MONGO-DB",
   "REDIS",
+  "KAKFA",
+  "ELASTIC-SEARCH",
+  "DOCKER",
   "GIT"
 ] as const;
