@@ -10,7 +10,7 @@ export interface ExperienceItem {
   date: string;
   location: string;
   description: string;
-  icon: React.ReactNode; // If your icon is a React component
+  icon: React.ReactNode;
 }
 
 export const links = [
@@ -46,14 +46,6 @@ export const links = [
 
 export const educDatas = [
   {
-    title: "Bachelor`s Degree in Information System",
-    location: "Universitas Terbuka",
-    description:
-      "Currently pursuing a Bachelor's Degree in Information Systems through a flexible program tailored for working professionals.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024 - Present",
-  },
-  {
     title: "Associate`s Degree in Computer Engineering.",
     location: "STMIK Profesional Makassar",
     description:
@@ -64,6 +56,13 @@ export const educDatas = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "BackEnd Engineer at DOKU ( PT. Nusa Satu Inti Artha )",
+    location: "Jakarta, Indonesia",
+    description: "Developing and maintaining backend systems in the Financial Core team, with a focus on financial transaction, bug fixing, and system reliability. Collaborating closely with the QA team to ensure high-quality releases and smooth system performance.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jun-2025 - Present",
+  },
   {
     title: "BackEnd Engineer at Indivara Group",
     location: "Jakarta, Indonesia",
@@ -121,9 +120,11 @@ export const skillsData = [
   "SPRING BOOT",
   "GOLANG",
   "UNIT TEST",
+  "SERVICE TEST",
+  "CUCUMBER",
   "PENTAHO",
-  "MICROSERVICES",
-  "MONOLITH",
+  "PAYMENT PROCESSING",
+  "FINANCIAL SYSTEM",
   "LINUX OS",
   "REST API",
   "GRPC",
